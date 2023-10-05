@@ -2,3 +2,26 @@
 @import "settings/colors";
 @import "settings/fonts";
 @import "settings/functions";
+@import "components/navigation";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: 16px;
+  color: $primary-color;
+  width: 100%;
+  background-color: $base-color;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-inline: pxToRem(15);
+}
