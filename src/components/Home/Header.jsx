@@ -6,12 +6,19 @@ const Header = () => {
     return (
         <header className="container">
             <nav>
-            <h1><Link to="/">LOGO</Link></h1>
-            <ul>
-                <li><ScrollLink to="order">ORDER NOW</ScrollLink></li>
-               <li><Navigation /></li>
-            </ul>
-</nav>
+                <div className="nav__firstRow">
+                    <Link to="/" className="logo">Cookies</Link>
+                    <div className="menu__box">
+                        <ScrollLink to="order" className="nav__order">ORDER NOW</ScrollLink>
+                        <div className="menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div><Navigation/></div>
+            </nav>
         </header>
     )
 }
