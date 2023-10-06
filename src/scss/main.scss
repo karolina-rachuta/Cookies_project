@@ -23,5 +23,5 @@ html, body {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  padding-inline: pxToRem(15);
+  padding: pxToRem(15) pxToRem(30);
 }
