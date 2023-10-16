@@ -11,10 +11,10 @@ const Navigation = ({menuOpen}) => {
             <li><ScrollLink to="events">Events & Catering</ScrollLink></li>
             <li><ScrollLink to="faq">FAQ</ScrollLink></li>
             <li><ScrollLink to="contact">Contact Us</ScrollLink></li>
-            <li>
-                <a href=""><img src="" alt=""/><i className="fa-brands fa-instagram" style={{color: "white", fontSize: "30px", fontWeight: "bold"}}></i></a>
-                <a href=""><img src="" alt=""/><i className="fa-brands fa-tiktok" style={{color: "white", fontSize: "24px", fontWeight: "bold"}}></i></a>
-                <a href=""><img src="" alt=""/><i className="fa-brands fa-youtube"style={{color: "white", fontSize: "30px"}}></i></a>
+            <li className="menu__icons">
+                <a href=""><img src="" alt=""/><i className="fa-brands fa-instagram"></i></a>
+                <a href=""><img src="" alt=""/><i className="fa-brands fa-tiktok"></i></a>
+                <a href=""><img src="" alt=""/><i className="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
     )

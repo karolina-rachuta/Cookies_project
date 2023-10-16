@@ -90,6 +90,28 @@ header {
         display: flex;
       }
 
+      .menu__icons {
+        display: flex;
+        gap: pxToRem(10);
+        margin-top: pxToRem(60);
+        align-items: center;
+        justify-content: center;
+
+        a {
+          padding: pxToRem(14) pxToRem(20);
+
+          .fa-brands {
+            font-size: pxToRem(40);
+            color: white;
+            font-weight: bold;
+
+            .fa-tiktok {
+              font-size: pxToRem(25);
+            }
+          }
+        }
+      }
+
       li {
         list-style: none;
         position: relative;
