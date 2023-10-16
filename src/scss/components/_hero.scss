@@ -5,4 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  div {
+    background-color: $base-color;
+    border-radius: pxToRem(10);
+    padding: pxToRem(14) pxToRem(20);
+
+    p {
+      font-size: pxToRem(25);
+    }
+  }
 }
