@@ -1,0 +1,7 @@
+.container__info {
+  min-height: pxToRem(500);
+  background-image: url(src/assets/cookies4.jpeg);
+  div {
+    background-color: $base-color;
+  }
+}

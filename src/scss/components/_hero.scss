@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: pxToRem(500);
 
   div {
     background-color: $base-color;
