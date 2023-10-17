@@ -1,7 +1,39 @@
 .container__info {
-  min-height: pxToRem(500);
+  min-height: pxToRem(600);
   background-image: url(src/assets/cookies4.jpeg);
-  div {
-    background-color: $base-color;
+  display: flex;
+  align-items: center;
+
+  .info__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .info__lead1 {
+      background-color: $base-color;
+      padding: pxToRem(15) pxToRem(15);
+      border-radius: pxToRem(30);
+
+      p {
+        font-size: pxToRem(40);
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .info__lead2 {
+      background-color: $base-color;
+      padding: pxToRem(15) pxToRem(15);
+      border-radius: pxToRem(30);
+      max-width: pxToRem(370);
+
+
+      p {
+        font-size: pxToRem(40);
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
   }
 }
